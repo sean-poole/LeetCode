@@ -42,10 +42,10 @@ Tweet 2 has length = 32. It is an invalid tweet.
 
 # Solution 
 
-## Return only the rows where the length of the string value in the content column is greater than 15.
+Return only the rows where the length of the string value in the content column is greater than 15.
 
-## Select 'tweet_id' from 'Tweets' table.
-## Filter returned rows for entries where the length of 'content' string > 15.
+> Select 'tweet_id' from 'Tweets' table.
+> Filter returned rows for entries where the length of 'content' string > 15.
 
 SELECT tweet_id
 FROM Tweets

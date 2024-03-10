@@ -45,8 +45,8 @@ Explanation: Only products 1 and 3 are both low fat and recyclable.
 
 # Solution
 
-## Select 'product_id' values from 'products' table
-## Filter returned values for products are low fat AND recyclable.
+> Select 'product_id' values from 'products' table
+> Filter returned values for products are low fat AND recyclable.
 
 SELECT product_id
 FROM Products
