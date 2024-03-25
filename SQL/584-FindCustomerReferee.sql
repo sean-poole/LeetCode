@@ -1,3 +1,4 @@
+/*
 Table: Customer
 
 +-------------+---------+
@@ -50,6 +51,7 @@ Output:
 > Select 'name' values from 'Customer' table.
 > Filter returned values for names that are not referred by a customer with an id of 2.
 > Null values should also be considered.
+*/
 
 SELECT name
 FROM Customer
