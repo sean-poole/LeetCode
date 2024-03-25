@@ -1,3 +1,4 @@
+/*
 Table: Weather
 
 +---------------+---------+
@@ -51,6 +52,7 @@ Select ids where the temperature on that date is higher than the temperature fro
 > Perform a self-join on the 'Weather' table to match each row with the row from the previous day.
 > Filter the returned result for rows where the temperature of the current day is greater than the temperature from the previous day.
 > Return the 'id' column from the 'Weather' table meeting these conditions.
+*/
 
 SELECT id
 FROM Weather AS t1
