@@ -1,3 +1,4 @@
+/*
 Table: Employee
 
 +-------------+---------+
@@ -51,6 +52,7 @@ Output:
 > Group the results by id.
 > Filter the returned groups where the total number of rows (employees) is >= 5.
 > Return name column of the filtered groups.
+*/
 
 SELECT t1.name
 FROM Employee AS t1
