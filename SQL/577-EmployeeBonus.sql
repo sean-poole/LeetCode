@@ -1,3 +1,4 @@
+/*
 Table: Employee
 
 +-------------+---------+
@@ -68,6 +69,7 @@ Output:
 > Left join 'Bonus' table on employee ID.
 > Filter returned rows for entries where bonus < 1000. Consider null values.
 > Return filtered name and bonus rows.
+*/
 
 SELECT 
   t1.name,
