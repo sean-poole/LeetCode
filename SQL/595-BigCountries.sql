@@ -1,3 +1,4 @@
+/*
 Table: World
 
 +-------------+---------+
@@ -52,6 +53,7 @@ Output:
 
 > Select 'name', 'population', and 'area' values from 'World' table.
 > Filter returned values for population >= 25,000,000 OR area >= 3,000,000.
+*/
 
 SELECT 
   name, 
