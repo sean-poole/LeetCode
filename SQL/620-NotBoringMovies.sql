@@ -1,3 +1,4 @@
+/*
 Table: Cinema
 
 +----------------+----------+
@@ -50,6 +51,7 @@ We have three movies with odd-numbered IDs: 1, 3, and 5. The movie with ID = 3 i
 > Select id, movie, description, and rating from 'Cinema' table.
 > Filter the returned rows for entries where the id is odd (calculate using MOD function) and the description != "boring".
 > Return filtered rows.
+*/
 
 SELECT
   id,
