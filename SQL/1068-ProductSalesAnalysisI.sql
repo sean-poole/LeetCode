@@ -1,3 +1,4 @@
+/*
 Table: Sales
 
 +-------------+-------+
@@ -72,6 +73,7 @@ From sale_id = 7, we can conclude that Apple was sold for 9000 in the year 2011.
 
 > For each sale ID in the 'Sales' table, return the name of the product sold, the year, and the price.
 > The name is found in the 'Product' table.
+*/
 
 SELECT 
   t2.product_name,
