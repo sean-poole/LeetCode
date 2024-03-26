@@ -1,3 +1,4 @@
+/*
 Table: Views
 
 +---------------+---------+
@@ -54,6 +55,7 @@ Rows should be sorted by id from smallest to largest.
 > Select unique 'author_id' values from 'Views' table and store as 'id'.
 > Filter returned rows for entries where author_id === viewer_id.
 > Order the filtered rows by id in ascending order.
+*/
 
 SELECT DISTINCT author_id AS id
 FROM Views
