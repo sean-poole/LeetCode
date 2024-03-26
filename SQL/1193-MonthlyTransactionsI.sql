@@ -1,3 +1,4 @@
+/*
 Table: Transactions
 
 +---------------+---------+
@@ -58,6 +59,7 @@ Output:
 > Sum the total amount of approved transactions per month in each country.
 > Alias the sum of approved transactions as 'approved_total_amount'.
 > Return month, country, trans_count, approved_count, trans_total_amount, and approved_total_amount columns.
+*/
 
 SELECT
   SUBSTR(trans_date, 1, 7) AS month,
