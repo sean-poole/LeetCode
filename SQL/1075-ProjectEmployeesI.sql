@@ -1,3 +1,4 @@
+/*
 Table: Project
 
 +-------------+---------+
@@ -73,6 +74,7 @@ Explanation: The average experience years for the first project is (3 + 2 + 1) /
 > Round the average to two decimal places.
 > Alias the result as 'average_years'.
 > Return project id and 'average_years'.
+*/
 
 SELECT 
   project_id,
