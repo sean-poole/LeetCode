@@ -1,3 +1,4 @@
+/*
 Table: Visits
 
 +-------------+---------+
@@ -81,6 +82,7 @@ As we can see, users with IDs 30 and 96 visited the mall one time without making
 > Group the filtered result set by customer ID from the 'Visits' table.
 > Count the occurrences of customer ID where there are no corresponding transactions. Set alias as 'count_no_trans'.
 > Return customer ID and the number of visits they had where no transactions were made.
+*/
 
 SELECT 
   t1.customer_id,
