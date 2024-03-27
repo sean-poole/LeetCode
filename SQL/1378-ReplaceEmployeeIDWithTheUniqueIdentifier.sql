@@ -1,3 +1,4 @@
+/*
 Table: Employees
 
 +---------------+---------+
@@ -74,6 +75,7 @@ The unique ID of Jonathan is 1.
 > Return the unique ID (if present) for each employee name in 'Employees' table.
 > Join to 'EmployeeUNI' table to get unique IDs using the 'id' column from both tables.
 > Any employees without unique ID should show 'NULL' for their unique ID value.
+*/
 
 SELECT 
   t2.unique_id,
