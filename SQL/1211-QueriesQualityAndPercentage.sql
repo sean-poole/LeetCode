@@ -1,3 +1,4 @@
+/*
 Table: Queries
 
 +-------------+---------+
@@ -78,6 +79,7 @@ Cat queries poor_ query_percentage is (1 / 3) * 100 = 33.33
   > Round the percentage to two decimal places.
   > Alias the rounded percentage as 'poor_query_percentage.
 > Return query_name, quality, and poor_query_percentage columns.
+*/
 
 SELECT 
   query_name,
