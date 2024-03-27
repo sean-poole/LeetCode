@@ -1,3 +1,4 @@
+/*
 Table: Students
 
 +---------------+---------+
@@ -112,6 +113,7 @@ John attended the Math exam 1 time, the Physics exam 1 time, and the Programming
 > Count the number of exams attended by each student for each subject.
 > Group by student Id and subject name.
 > Order by student Id and subject name.
+*/
 
 SELECT
   t1.student_id,
