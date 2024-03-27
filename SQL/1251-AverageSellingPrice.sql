@@ -1,3 +1,4 @@
+/*
 Table: Prices
 
 +---------------+---------+
@@ -77,6 +78,7 @@ Average selling price for product 2 = ((200 * 15) + (30 * 30)) / 230 = 16.96
 > Round to two decimal places.
 > Alias the calculation as 'average_price'.
 > Return product id and average_price.
+*/
 
 SELECT 
   t1.product_id,
